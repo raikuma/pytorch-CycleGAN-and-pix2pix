@@ -1,0 +1,1 @@
+docker run -it --name wocho_gpuall_pix2pix --gpus all -v `pwd`:/workspace -p 8097:8097 --ipc host wocho_pix2pix:latest
